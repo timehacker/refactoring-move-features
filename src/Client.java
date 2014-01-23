@@ -17,7 +17,11 @@ public class Client {
     }
 
     public void newStart() {
-        newStart = new Date(previousEnd.getYear(), previousEnd.getMonth(), previousEnd.getDate()+1);
+        newStart = nextDay(previousEnd);
+    }
+
+    private Date nextDay(Date preDay) {
+        return new Date(preDay.getYear(), preDay.getMonth(), preDay.getDate()+1);
     }
 
 
