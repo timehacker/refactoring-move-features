@@ -10,6 +10,10 @@ public class Person {
         return telephoneNumber.getTelephoneNumber();
     }
 
+    public TelephoneNumber getTelephone() {
+        return telephoneNumber;
+    }
+
     public String call() {
         return telephoneNumber.call();
     }

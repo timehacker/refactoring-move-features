@@ -9,7 +9,7 @@ public class Client {
     }
 
     public String call_the_person() {
-        return person.call();
+        return person.getTelephone().call();
     }
 
 
