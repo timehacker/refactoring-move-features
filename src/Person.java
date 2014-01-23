@@ -1,6 +1,5 @@
 public class Person {
-    private String _officeNumber;
-    private String _officeAreaCode;
+    private final TelephoneNumber telephoneNumber = new TelephoneNumber();
     private String _name;
 
     public String getName() {
@@ -8,23 +7,23 @@ public class Person {
     }
 
     public String getTelephoneNumber() {
-        return ("(" + _officeAreaCode + ")" + _officeNumber);
+        return telephoneNumber.getTelephoneNumber();
     }
 
     public String call() {
-        return "CALL: " + getTelephoneNumber();
+        return telephoneNumber.call();
     }
 
     void setOfficeAreaCode(String code) {
-        _officeAreaCode = code;
+        telephoneNumber.setOfficeAreaCode(code);
     }
 
     String getOfficeNumber() {
-        return _officeNumber;
+        return telephoneNumber.getOfficeNumber();
     }
 
     void setOfficeNumber(String number) {
-        _officeNumber = number;
+        telephoneNumber.setOfficeNumber(number);
     }
 
 }
