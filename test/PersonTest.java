@@ -22,4 +22,10 @@ public class PersonTest {
     public void should_call_correct_number() {
         Assert.assertEquals("CALL: (123)456", person.call());
     }
+
+    @Test
+    public void should_get_another_telephone_number() {
+        person.setAnotherTelephoneNumber("123");
+        Assert.assertEquals("123", person.getAnotherTelephoneNumber());
+    }
 }

@@ -1,6 +1,7 @@
 public class Person {
     private final TelephoneNumber telephoneNumber = new TelephoneNumber();
     private String _name;
+    public String anotherTelephoneNumber;
 
     public String getName() {
         return _name;
@@ -26,4 +27,11 @@ public class Person {
         telephoneNumber.setOfficeNumber(number);
     }
 
+    public void setAnotherTelephoneNumber(String number) {
+        anotherTelephoneNumber = number;
+    }
+
+    public String getAnotherTelephoneNumber() {
+        return anotherTelephoneNumber;
+    }
 }
