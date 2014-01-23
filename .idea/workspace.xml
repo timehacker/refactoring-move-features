@@ -113,7 +113,7 @@
       <file leaf-file-name="Client.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="277" selection-end="277" vertical-scroll-proportion="0.25333333" vertical-offset="0" max-vertical-offset="825">
+            <state line="20" column="5" selection-start="545" selection-end="545" vertical-scroll-proportion="0.4679803" vertical-offset="0" max-vertical-offset="812">
               <folding />
             </state>
           </provider>
@@ -241,6 +241,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -654,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="277" selection-end="277" vertical-scroll-proportion="0.25333333" vertical-offset="0" max-vertical-offset="825">
+        <state line="20" column="5" selection-start="545" selection-end="545" vertical-scroll-proportion="0.4679803" vertical-offset="0" max-vertical-offset="812">
           <folding />
         </state>
       </provider>
